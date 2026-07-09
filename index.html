@@ -1225,7 +1225,10 @@
     if (now >= DAY_END) { setMode("past"); return; }
     if (now >= TARGET) { setMode("started"); return; }
 
-    var total = Math.floor((TARGET - now) / 1000);
+    /* Antes del dia 27 se cuenta hacia la medianoche del 27 (dias calendario,
+       igual que la otra pagina); el mismo dia 27 se cuenta hacia las 2 p. m. */
+    var ref = now >= DAY_START ? TARGET : DAY_START;
+    var total = Math.floor((ref - now) / 1000);
     var d = Math.floor(total / 86400);
     var h = Math.floor((total % 86400) / 3600);
     var m = Math.floor((total % 3600) / 60);
