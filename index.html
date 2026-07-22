@@ -691,6 +691,8 @@
 
   .mapa-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 14px -8px rgba(11, 35, 66, 0.4); }
 
+  .llegar + .llegar { margin-top: -1.45rem; }
+
   .gifts-title {
     font-family: var(--font-serif);
     font-size: 1.05rem;
@@ -965,6 +967,18 @@
           </a>
         </p>
 
+        <p class="llegar">
+          <span class="llegar-k" data-i18n="agendar">Agendar:</span>
+          <a class="mapa-btn" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Baby%20Shower%20-%20Beb%C3%A9%20Wilton%20Canales&amp;dates=20260727T140000/20260727T170000&amp;ctz=America/Costa_Rica&amp;location=Coco%27s%20Tiki%20Bar%2C%20Playas%20del%20Coco%2C%20Guanacaste%2C%20Costa%20Rica&amp;details=C%C3%B3mo%20llegar%3A%20https%3A%2F%2Fmaps.app.goo.gl%2Fo1DMj1FKQRAWfjuy9%20%C2%B7%20Invitaci%C3%B3n%3A%20https%3A%2F%2Fbabyshower-wiltoncanales.com" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+            Google Calendar
+          </a>
+          <a class="mapa-btn" href="evento.ics">
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+            Apple Calendar
+          </a>
+        </p>
+
         <hr class="card-rule">
 
         <h2 class="gifts-title" data-i18n="regalosTitulo">Sugerencias de regalos</h2>
@@ -1080,6 +1094,7 @@
       hora: "Hora", horaV: "2:00 p. m.",
       lugar: "Lugar",
       comoLlegar: "Cómo llegar:",
+      agendar: "Agendar:",
       regalosTitulo: "Sugerencias de regalos",
       regalosTexto: "Si bien los regalos siempre son apreciados, una contribución al fondo del bebé es igualmente bienvenida. Elijan lo que elijan, simplemente estamos agradecidos de celebrar con ustedes.",
       regalo: "Regalo", sobre: "Sobre con efectivo",
@@ -1115,6 +1130,7 @@
       hora: "Time", horaV: "2:00 PM",
       lugar: "Location",
       comoLlegar: "Directions:",
+      agendar: "Add to calendar:",
       regalosTitulo: "Gift suggestions",
       regalosTexto: "While gifts are always appreciated, a contribution to the baby fund is equally welcome. Whatever you choose, we are simply grateful to celebrate with you.",
       regalo: "Gift", sobre: "Envelope with cash",

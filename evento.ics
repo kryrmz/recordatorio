@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//babyshower-wiltoncanales.com//Baby Shower//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:baby-shower-wilton-canales-2026@babyshower-wiltoncanales.com
+DTSTAMP:20260716T210000Z
+DTSTART:20260727T200000Z
+DTEND:20260727T230000Z
+SUMMARY:Baby Shower - Bebé Wilton Canales
+LOCATION:Coco's Tiki Bar\, Playas del Coco\, Guanacaste\, Costa Rica
+DESCRIPTION:Baby shower en honor a la llegada de Bebé Wilton Canales.
+ \nCómo llegar: https://maps.app.goo.gl/o1DMj1FKQRAWfjuy9
+ \nInvitación: https://babyshower-wiltoncanales.com
+URL:https://babyshower-wiltoncanales.com
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
